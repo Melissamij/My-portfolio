@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../ioc-jekyll-demo/.devcontainer"
+		}
+	],
+	"settings": {}
+}
