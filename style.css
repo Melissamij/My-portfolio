@@ -4,6 +4,9 @@ colors:
 - dark green : #767964
 - beige : #FAF6F0
 - grey : #4A4444
+font: 
+- font-family: 'Fira Sans Condensed', sans-serif;
+- font-family: 'Overpass', sans-serif;
 
 */
 * {
@@ -141,16 +144,20 @@ colors:
 
 /* ------ Typography Styles-----*/
 body{ 
-  font-family: 'Catamaran', sans-serif;
+  font-family: 'Overpass', sans-serif;
   color: #4A4444;}
 
 h1{
+  font-family:'Fira Sans Condensed', sans-serif;
+  font-weight: 400;
   color: #4A4444;
-  font-size: 6rem;
+  font-size: 3rem;
 
 }
 
 h2{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 400;
     font-size: 2.5rem;
     line-height: 1.1;
     margin-bottom: 1rem;
@@ -172,36 +179,29 @@ text-decoration: none;
 }
 
 a:hover{
-    color: #F7D1CD;
+    color: #767964;
 }
 
 
 /* header */
 header{
-  background-image: url('/images/pancake.jpg');
-  background-size: cover;
-  background-position: center;
-  padding: 1% 5%;/* top & bottom, left & right*/
-  background-position: 45% 65%;
-  width: 100vw;
-  height: 90vh;
-  position:relative;
+  background-color: #FAF6F0;
+  padding: 1% 5%;
 }
 
 header a {
-    color: #4C1E4F;
     text-decoration: none;
     display: inline-block;
     padding: 0.5rem;
   }
   header a:hover{
-    color: #F7D1CD;
+    color: #767964;
   }
   
   .logo {
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: normal;
-    font-family: 'Catamaran', sans-serif;
+    font-family:  'Fira Sans Condensed', sans-serif;
   }
   .nav-button{
     border: 2px solid;
@@ -258,15 +258,17 @@ header a {
 
 /*------ featured section ------*/
 .button {
-border: 1px solid #4C1E4F;
+border: 1px solid #767964;
+background-color: #4A4444;
+color:#FAF6F0;
 display: inline-block;
 padding: 0.5rem 1rem;
 width: 25%;
 }
 .button:hover{
   cursor: pointer;
-  background-color: #4C1E4F;
-  color: #F7D1CD;
+  background-color: #FAF6F0;
+  color: inherit;
 }
 
 
@@ -342,23 +344,13 @@ width: 25%;
   
   /*Background Images */
   .bg-image {
-    background-image: url('/images/pancake.jpg');
+    background-image: url('/images/moi.png');
     background-size: cover;
     background-position: center;
-    min-height: 20rem;
+   
   }
   
-  .bg-picnic {background-image:url('/images/picnic.jpg');}
-  .bg-cheffe {
-    background-image:url('/images/chefcooking.jpg');
-    background-position: center;
-    background-size: cover;}
-  .bg-pancake { background-image: url('/images/pancake.jpg');}
-  .bg-crepes { background-image: url('/images/crepes.jpg');}
-  .bg-salade {background-image: url('/images/saladmaking.jpg');}
-  .bg-kitchen { background-image: url('/images/kitchen.jpg');}
-
-  .shape-window {
+  .shape {
     border-top-left-radius: 20rem;
     border-top-right-radius: 20rem;}
 
