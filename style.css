@@ -140,7 +140,23 @@ font:
 .font-weight-normal{font-weight: 400;}
 .font-weight-bold{font-weight: 800;}
 
+/* General CSS Responsive Styles */
 
+/* Default Responsive Styles (Dekstop and below) */
+.mob-show {
+  display: none; 
+}
+
+.landscape{ padding-bottom: 65%;}
+.portrait {padding-bottom: 125%;}
+.portrait-tall { padding-bottom: 175%; }
+.square {padding-bottom: 100%;}
+
+/* Background Position */
+.bg-pos-t { background-position: top; }
+.bg-pos-b { background-position: bottom; }
+.bg-pos-l { background-position: left; }
+.bg-pos-r { background-position: right; }
 
 /* ------ Typography Styles-----*/
 body{ 
@@ -270,6 +286,7 @@ width: 25%;
   background-color: #FAF6F0;
   color: inherit;
 }
+
 /* portfolio cards*/
 .container-layout {
   position:relative;
@@ -280,86 +297,27 @@ width: 25%;
   flex: 1;
 }
 
-/*--------- Icon Grid---------*/
-.fas,
-.fab,
-.fa-thin { 
-    display: block;
-    text-align: center;
-    margin-bottom: 2rem;
-    font-size: 3rem;
-    color: #4C1E4F;
-}
 
-/*----------Card Style-------*/
-.pricing {
-  max-width: 1000px;
-  margin:auto;
-}
-.pricing [class*=col-]{
-  background-color: #4C1E4F;
- border: 0.5rem solid white;/* space between*/
-}
-.card {
-  padding: 1rem;
-  background-color: #4C1E4F;
-  border: 1px solid white;
-  color: white;
-}
 
-.card:hover {
-  box-shadow: white 0px 8px 24px;
-}
-.card h3 {
-  font-size: 1.1rem;
-  font-weight: 200;
-  letter-spacing: 0.05em;
-  color: white;
-  text-transform: uppercase;
-}
-.prices{
-  font-size: 2.5rem;
-  font-weight: 300;
-  margin-top: 1.5rem;
-  margin-bottom: 2rem;
-}
-.card p,
-.card li{
-  text-align:left;
-  font-size: 0.9rem;
-  font-weight: 300;
-  margin-left: 1rem;
-}
 
-/* General CSS Responsive Styles */
-/* Default Responsive Styles (Dekstop and below) */
-.mob-show {
-  display: none; 
-}
-
-.landscape{ padding-bottom: 65%;}
-.portrait {padding-bottom: 125%;}
-.portrait-tall { padding-bottom: 175%; }
-.square {padding-bottom: 100%;}
-
-/* Background Position */
-.bg-pos-t { background-position: top; }
-.bg-pos-b { background-position: bottom; }
-.bg-pos-l { background-position: left; }
-.bg-pos-r { background-position: right; }
 
   
-  /*Background Images */
-  .bg-image {
-    background-image: url('/images/moi.png');
-    background-size: cover;
-    background-position: center;
-   
-  }
+/*Background Images */
+.bg-image {
+  background-image: url('/images/moi.png');
+  background-size: cover;
+  background-position: center;
+   }
+.bg-moi { 
+  background-image: url('/images/moi.png');
+  background-size: cover;
+  background-position: center;
+
+
+}
   
-  .shape {
-    border-top-left-radius: 20rem;
-    border-top-right-radius: 20rem;}
+.shape {
+  border-top-left-radius: 20rem;}
 
 
 /* footer form */
