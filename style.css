@@ -304,17 +304,12 @@ width: 25%;
   
 /*Background Images */
 .bg-image {
-  background-image: url('/images/moi.png');
+  background-image: url('/images/mélissa.png');
   background-size: cover;
   background-position: center;
    }
-.bg-moi { 
-  background-image: url('/images/moi.png');
-  background-size: cover;
-  background-position: center;
-
-
-}
+.bg-mélissa { 
+  background-image: url('/images/moi.png');}
   
 .shape {
   border-top-left-radius: 20rem;}
