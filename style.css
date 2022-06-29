@@ -5,8 +5,8 @@ colors:
 - beige : #FAF6F0
 - grey : #4A4444
 font: 
-- font-family: 'Fira Sans Condensed', sans-serif;
-- font-family: 'Overpass', sans-serif;
+ font-family: 'Fira Sans Condensed', sans-serif;
+ font-family: 'Overpass', sans-serif;
 
 */
 * {
@@ -309,7 +309,7 @@ width: 25%;
   background-position: center;
    }
 .bg-mélissa { 
-  background-image: url('/images/moi.png');}
+  background-image: url('/images/mélissa.png');}
   
 .shape {
   border-top-left-radius: 20rem;}
@@ -323,7 +323,7 @@ input, textarea {
   display: block;
   width: 100%;
   font-size: 1rem;
-  vertical-align: top;
+ 
 }
 
 input:focus,
