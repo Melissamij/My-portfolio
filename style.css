@@ -270,8 +270,15 @@ width: 25%;
   background-color: #FAF6F0;
   color: inherit;
 }
-
-
+/* portfolio cards*/
+.container-layout {
+  position:relative;
+  right: 130px; 
+  top: 70px;
+  height: 150px;
+  width: 400px;
+  flex: 1;
+}
 
 /*--------- Icon Grid---------*/
 .fas,
